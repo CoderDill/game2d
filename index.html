@@ -35,10 +35,14 @@
       function preload() {
         this.load.image("forest", "assets/png/BG.png");
         this.load.image("ground", "assets/platform.png");
-        this.load.spritesheet("dude", "assets/slide.png", {
-          frameWidth: 60,
-          frameHeight: 120,
-        });
+        this.load.spritesheet(
+          "dude",
+          "assets/png/Adventurer/adventurer_tilesheet.png",
+          {
+            frameWidth: 75,
+            frameHeight: 120,
+          }
+        );
       }
 
       function create() {
